@@ -1,0 +1,51 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 296145942fda05cc69354c1e3823e11b5749df13 Build.PL
+SHA1 ff1e4d4c2d4ad493c3895517f8ff8eeba10fa398 Changes
+SHA1 2d1b14926e534d4d7646a9ddc606c82797b4c8b4 LICENSE
+SHA1 de3ff12e8e67f4ad94870c7b66abbbb46b69ff19 MANIFEST
+SHA1 cab65523e7428de1d374c56bcbb27696a579f9bd MANIFEST.SKIP
+SHA1 5f6634e3f23dd1d81e7a22137c48586405831eb1 META.yml
+SHA1 f72d55cb56bf8d9e3e70809a4d5c9791a652dbb6 Makefile.PL
+SHA1 c826a1638e12e716fedf19166f0edd99c54414ac README
+SHA1 f0e286ab7a64dd1f476c8143a538a668046d2d90 lib/DateTime/Calendar/HalariSamvata.pm
+SHA1 bcf30f471b506d11b9d49db33cda31005dbdbc26 lib/DateTime/Calendar/ShalivahanaShaka/Southern.pm
+SHA1 47ce2b20e735be863efc11b978fbcab4956152f3 lib/DateTime/Calendar/VikramaSamvata/Gujarati.pm
+SHA1 dda1cab4bc0a3c2dbf99ca84e811d89605cae52b lib/DateTime/Indic/Chandramana.pm
+SHA1 df6e7ffc00a6ea4207abe73f8d631578d62882f3 lib/DateTime/Indic/Utils.pm
+SHA1 8a35f7befbdd513e6e30003bf14f24cf174d5764 t/00-load.t
+SHA1 7d43f73cc86dd18f14f113f1b4300e1cbcb890a4 t/halarisamvata-from_object.t
+SHA1 06a6e1bbc66e720c7f0edf85ac3969e11eaa4e98 t/halarisamvata.t
+SHA1 16e80ca745297205a73e7eddf7c38c82db05f318 t/perl-critic.t
+SHA1 3da60b0a19f92e43eeee70e9512158fe38b884b4 t/perlcriticrc
+SHA1 e2eaaa24bc6cb4dbd7746c0f70959685aefa7105 t/shalivahanashaka-southern-2007.t
+SHA1 1719b396c90e2f49b22fc80722663d7a1c8ad3b1 t/shalivahanashaka-southern-2008.t
+SHA1 3266dbeea7a381247668e02913eeeb7e0beacc72 t/shalivahanashaka-southern-from_object-2007.t
+SHA1 0b9bc0446f116a329bbba9b21857ef442c1cfb2e t/shalivahanashaka-southern-from_object-2008.t
+SHA1 9dbd2584b83855f7a5d1dddb306d2fba6ddae100 t/vikramasamvata-gujarati-2006.t
+SHA1 52692840745cfc2f3c576be9ea92af249705e151 t/vikramasamvata-gujarati-2007.t
+SHA1 b488b16c63d3179bbf3240fcadc58855aa8f2788 t/vikramasamvata-gujarati-2008.t
+SHA1 d53a00f68e5e4dc3731240e3fb02476ee4e265aa t/vikramasamvata-gujarati-from_object-2006.t
+SHA1 71ab26c80b91e550382082823ae9d763af1033be t/vikramasamvata-gujarati-from_object-2007.t
+SHA1 8baebe0138226af323b2adcd6d13d0e3519073e1 t/vikramasamvata-gujarati-from_object-2008.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkpk54YACgkQIN9eM6kfjrp3TQCgnGPLc0QzlImimJwm8aDFM07h
+XMUAoLM4Tj9m99frs9vKy5XdaEXzRl5+
+=DjU1
+-----END PGP SIGNATURE-----

@@ -1,0 +1,37 @@
+---
+name: DateTime-Indic
+version: 0.1
+author:
+  - 'Jaldhar H. Vyas <jaldhar@braincells.com>'
+abstract: Manipulate dates in various traditional Indian calendar systems.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  DateTime: 0
+  DateTime::Event::Lunar: 0.06
+  DateTime::Event::Sunrise: 0
+  DateTime::Util::Calc: 0.13
+  Memoize: 0
+  Params::Validate: 0
+  Test::More: 0
+provides:
+  DateTime::Calendar::HalariSamvata:
+    file: lib/DateTime/Calendar/HalariSamvata.pm
+    version: 0.1
+  DateTime::Calendar::ShalivahanaShaka::Southern:
+    file: lib/DateTime/Calendar/ShalivahanaShaka/Southern.pm
+    version: 0.1
+  DateTime::Calendar::VikramaSamvata::Gujarati:
+    file: lib/DateTime/Calendar/VikramaSamvata/Gujarati.pm
+    version: 0.1
+  DateTime::Indic::Chandramana:
+    file: lib/DateTime/Indic/Chandramana.pm
+    version: 0.2
+  DateTime::Indic::Utils:
+    file: lib/DateTime/Indic/Utils.pm
+    version: 0.01
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
